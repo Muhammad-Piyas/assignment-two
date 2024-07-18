@@ -1,0 +1,16 @@
+@media screen and (max-width: 576px) {
+  .nav-info{
+    display: none;
+  }
+  .nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem auto;
+  }
+
+  #hamburger-menu{
+    display: block;
+    color: white;
+  }
+}
