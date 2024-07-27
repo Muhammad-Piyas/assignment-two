@@ -35,7 +35,7 @@ body{
  .header-container{
   width: 100%;
   height: 780px;
-  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  background: linear-gradient(180.00deg, rgba(17, 17, 17, 0.651),rgba(119, 119, 119, 0) 100%);
   border: 2px solid;
 }
 
@@ -269,3 +269,44 @@ border: 3px solid rgb(34, 34, 34);
 }
 
 /* ==== Change Your Habits Section Style End ==== */
+
+/* == Run an Extra Mile Easily Section Style Start == */
+.run-container{
+  width: 100%;
+  height: 380px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.run-content{
+  width: 443px;
+  height: 290px;
+}
+
+.run-content h2{
+  color: white;
+  font-weight: 800;
+  font-size: 3rem;
+  margin-bottom: 0.875rem;
+}
+
+.run-content p{
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 0.875rem;
+  margin-bottom: 2.5rem;
+}
+
+.run-img{
+  width: 366px;
+  height: 312px;
+  border-radius: 18px;
+  background: url(../images/run-pc.jpg);
+  background-size: cover;
+}
+
+/* == Run an Extra Mile Easily Section Style End == */
