@@ -33,7 +33,7 @@
 
   .header-container{
     width: 100%;
-    height: 1250px;
+    height: 1050px;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     background-color: rgba(0, 0, 0, 0.856);
     border: 2px solid;
@@ -65,8 +65,8 @@
 
   .banner-text p {
   font-weight: 400;
-  text-align: start;
   font-size: 1rem;
+  line-height: 1.5rem;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -129,5 +129,54 @@
   margin-top: -32rem;
   margin-left: 12rem;
 }
+/* ==== Banner Text Image Style End ==== */
+
+/* ==== Change Your Habits Section Style Start ==== */
+.change-container{
+  width: 318px;
+  height: 1216px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.habits-container h2{
+  width: 318px;
+  height: 38px;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 0.875rem;
+}
+
+.habits-container p{
+  width: 318px;
+  height: 38px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+.change-content .change-text{
+  margin-top: 0.5rem;
+  margin-bottom: 3px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
+
+.change-content p{
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin: 0 auto;
+}
+/* ==== Change Your Habits Section Style End ==== */
+
+
 
 }
