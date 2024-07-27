@@ -134,7 +134,7 @@
 /* ==== Change Your Habits Section Style Start ==== */
 .change-container{
   width: 318px;
-  height: 1216px;
+  height: 1150px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
@@ -177,6 +177,40 @@
 }
 /* ==== Change Your Habits Section Style End ==== */
 
+/* == Run an Extra Mile Easily Section Style Start == */
+.run-container{
+  width: 100%;
+  height: 531px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
 
+.run-content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 40px 16px 40px; 
+}
 
+.run-content h2{
+  color: white;
+  font-weight: 800;
+  font-size: 2rem;
+  margin-bottom: 0.875rem;
+}
+
+.run-content p{
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.run-img{
+  width: 287px;
+  height: 170px;
+  border-radius: 18px;
+  background: url(../images/run.jpg);
+  background-size: cover;
+  margin: 0 auto;
 }
