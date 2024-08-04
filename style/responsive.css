@@ -180,9 +180,9 @@
 /* == Run an Extra Mile Easily Section Style Start == */
 .run-container{
   width: 100%;
-  height: 531px;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  height: 30rem;
+  flex-direction: column;
+  display: block;
 }
 
 .run-content{
@@ -203,7 +203,7 @@
 
 .run-content p{
   line-height: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .run-img{
@@ -213,4 +213,43 @@
   background: url(../images/run.jpg);
   background-size: cover;
   margin: 0 auto;
+}
+/* == Run an Extra Mile Easily Section Style End == */
+
+/* ==== Calculator Style Start ==== */
+.calculator-content{
+  height: 50rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.table-content{
+  margin-top: 2rem;
+  margin-left: 1.2rem;
+}
+
+.table-content h4{
+  color: white;
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.calculator-box{
+  width: 22.125rem;
+  margin-top: 2rem;
+  margin-left: 1.2rem;
+}
+
+.calculator-box h4{
+  color: white;
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 0.875rem;
+}
+
+.box-item input{
+  width: 11rem;
+}
+
 }
