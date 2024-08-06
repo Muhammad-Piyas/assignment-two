@@ -251,5 +251,58 @@
 .box-item input{
   width: 11rem;
 }
+/* ==== Calculator Style End ==== */
 
+/* ==== Meet Our Team Style Start ==== */
+.img-background{
+  width: 23.5rem;
+  height: 1188px;
+  display: block;
+}
+
+.meet-title {
+  width: 20rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.meet-title h2{
+  color: white;
+  font-size: 2rem;
+}
+
+.meet-our-img{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.our-img-content-one{
+  display: none;
+}
+
+.our-img-content-four{
+  display: none;
+}
+
+.our-img-content-two{
+  width: 21.125rem;
+  height: 17rem;
+}
+
+.our-img-content-three{
+  width: 21.125rem;
+  height: 17rem;
+}
+
+.our-img-content-five{
+  width: 21.125rem;
+  height: 17rem;
+  grid
+}
+
+.our-img-content-six{
+  width: 21.125rem;
+  height: 17rem;
+}
+/* ==== Meet Our Team Style End ==== */
 }

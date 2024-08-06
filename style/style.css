@@ -404,7 +404,7 @@ border: 3px solid rgb(34, 34, 34);
 
 .box-item input{
   height: 3rem;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   font-size: 1rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
@@ -415,7 +415,7 @@ border: 3px solid rgb(34, 34, 34);
 
 .box-item select{
   height: 3.05rem;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   font-size: 1rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
@@ -457,57 +457,8 @@ border: 3px solid rgb(34, 34, 34);
   height: 38rem;
   margin: 0 auto;
   padding: 20px;
-  border-radius: 18px;
+  border-radius: 1.125rem;
   background-color: rgba(255, 255, 255, 0.1);
-}
-
-.our-img-content-one{
-  width: 410px;
-  height: 272px;
-  border-radius: 18px;
-  background: url(../images/trainer1.png);
-  background-size: cover;
-}
-
-.our-img-content-two{
-  width: 410px;
-  height: 272px;
-  border-radius: 18px;
-  background: url(../images/trainer2.png);
-  background-size: cover;
-}
-
-.our-img-content-three{
-  width: 410px;
-  height: 272px;
-  border-radius: 18px;
-  background: url(../images/trainer3.png);
-  background-size: cover;
-}
-
-.our-img-content-four{
-  width: 410px;
-  height: 272px;
-  border-radius: 18px;
-  background: url(../images/trainer4.png);
-  background-size: cover;
-}
-
-.our-img-content-five{
-  width: 410px;
-  height: 272px;
-  border-radius: 18px;
-  background: url(../images/trainer5.png);
-  background-size: cover;
-  background-image: rgba(0, 0, 0, 0.2);
-}
-
-.our-img-content-six{
-  width: 410px;
-  height: 272px;
-  border-radius: 18px;
-  background: url(../images/trainer6.png);
-  background-size: cover;
 }
 
 .meet-our-img{
@@ -518,8 +469,8 @@ border: 3px solid rgb(34, 34, 34);
 
 .meet-our-img p{
   position: relative ;
-  padding: 15px;
-  margin-top: 170px;
+  padding: 1rem;
+  margin-top: 10.625rem;
 }
 
 .meet-our-img .name-p{
@@ -530,8 +481,113 @@ border: 3px solid rgb(34, 34, 34);
 
 .meet-our-img .name-t{
   color: rgba(255, 255, 255, 0.5);
-  font-weight: 400;
   font-size: 0.875rem;
+  font-weight: 400;
 }
 
-/* Meet Our Team End Start */
+.our-img-content-one{
+  width: 25.625rem;
+  height: 17rem;
+  border-radius: 1.125rem;
+  background: url(../images/trainer1.png);
+  background-size: cover;
+}
+
+.our-img-content-two{
+  width: 25.625rem;
+  height: 17rem;
+  border-radius: 1.125rem;
+  background: url(../images/trainer2.png);
+  background-size: cover;
+}
+
+.our-img-content-three{
+  width: 25.625rem;
+  height: 17rem;
+  border-radius: 1.125rem;
+  background: url(../images/trainer3.png);
+  background-size: cover;
+}
+
+.our-img-content-four{
+  width: 25.625rem;
+  height: 17rem;
+  border-radius: 1.125rem;
+  background: url(../images/trainer4.png);
+  background-size: cover;
+}
+
+.our-img-content-five{
+  width: 25.625rem;
+  height: 17rem;
+  border-radius: 1.125rem;
+  background: url(../images/trainer5.png);
+  background-size: cover;
+  background-image: rgba(0, 0, 0, 0.2);
+}
+
+.our-img-content-six{
+  width: 25.625rem;
+  height: 17rem;
+  border-radius: 1.125rem;
+  background: url(../images/trainer6.png);
+  background-size: cover;
+}
+/* ====  Meet Our Team End Start ==== */
+
+/* ====  Footer Style Section Start ====  */
+.footer{
+  width: 100%;
+  height: 26rem;
+ background: rgba(255, 255, 255, 0.1);;
+}
+
+.footer-Container{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  padding-top: 4rem;
+ }
+
+ .footer-content-one h3{
+  color: rgb(230, 83, 60);
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+ }
+
+ .footer-content-one p{
+  width: 27rem;
+  line-height: 1.4rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+  font-weight: 400;
+ }
+
+ .footer-content-s h4{
+   font-size: 1.5rem;
+   font-weight: 700;
+   color: white;
+   margin-bottom: 1rem;
+ }
+
+ .footer-content-s p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: .8rem;
+ }
+ 
+ .footer-last-line{
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  margin-top: 7rem;
+ }
+
+ .footer-last-text{
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 2rem;
+  text-align: center;
+ }
+
+ 
+ /* ==== Footer Style Section End ====  */
