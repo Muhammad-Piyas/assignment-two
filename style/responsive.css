@@ -256,7 +256,7 @@
 /* ==== Meet Our Team Style Start ==== */
 .img-background{
   width: 23.5rem;
-  height: 1188px;
+  height: 74.25rem;
   display: block;
 }
 
@@ -287,22 +287,43 @@
 .our-img-content-two{
   width: 21.125rem;
   height: 17rem;
+  order: 1;
 }
 
 .our-img-content-three{
   width: 21.125rem;
   height: 17rem;
+  order: 3;
 }
 
 .our-img-content-five{
   width: 21.125rem;
   height: 17rem;
-  grid
+  order: 2;
 }
 
 .our-img-content-six{
   width: 21.125rem;
   height: 17rem;
+  order: 4;
 }
 /* ==== Meet Our Team Style End ==== */
+
+/* ====  Footer Style Section Start ====  */
+.footer{
+  width: 100%;
+  height: 57rem;
+ background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-Container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding-top: 2rem;
+}
+
+.footer-content-one p{
+  width: 21rem;
+}
+
 }
