@@ -216,6 +216,45 @@
 }
 /* == Run an Extra Mile Easily Section Style End == */
 
+/* ==== five fitness tips Section Style Start ==== */
+.fitness-title{
+  color: white;
+  font-size: 1rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.fitness-container{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+align-items: center;
+}
+
+.five-tips-content{
+  width: 335px;
+}
+
+
+.five-tips-content ol{
+color: rgba(255, 255, 255, 0.781);
+font-weight: 400;
+font-size: 0.850rem;
+line-height: 1.6rem;
+margin-top:  0.875rem;
+margin-left: 1.5rem;
+}
+
+.five-tips-content ol, li{
+  margin-top: 1rem;
+}
+
+.fitness-video{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  }
+/* ==== five fitness tips Section Style End ==== */
+
 /* ==== Calculator Style Start ==== */
 .calculator-content{
   height: 50rem;

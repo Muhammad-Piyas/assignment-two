@@ -312,6 +312,50 @@ border: 3px solid rgb(34, 34, 34);
 
 /* == Run an Extra Mile Easily Section Style End == */
 
+/* ==== five fitness tips Section Style Start ==== */
+.fitness-section{
+  border: 2px solid rgb(34, 34, 34);
+  border-radius: 16px;
+  margin: 1rem;
+}
+
+.fitness-title{
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+.fitness-container{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.five-tips-content{
+  width: 643px;
+  height: 400px;
+}
+
+.five-tips-content ol{
+  color: rgba(255, 255, 255, 0.781);
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.five-tips-content ol, li{
+  margin-bottom: 0.9rem;
+}
+
+
+.fitness-video{
+  border-radius: 16px;
+}
+/* ==== five fitness tips Section Style End ==== */
+
 /* ==== Calculator Style Start ==== */
 
 .calculator-container{
